@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Expo and TypeScript",
+    "description": "Showcase of an Expo app coded in TypeScript.",
+    "slug": "expo-and-typescript",
+    "privacy": "public",
+    "platforms": ["ios", "android"],
+    "version": "0.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#fff",
+    "icon": "./assets/app-icon.png",
+    "splash": {
+      "backgroundColor": "#fff",
+      "image": "./assets/splash-screen.png",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["assets/**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "usesAppleSignIn": true
+    },
+    "githubUrl": "https://github.com/janaagaard75/expo-and-typescript"
+  }
+}
