@@ -31,7 +31,7 @@ module.exports = {
         readonly: "generic",
       },
     ],
-
+    '@typescript-eslint/ban-ts-comment': 0,
     // Mandatory return types clutters the code too much.
     "@typescript-eslint/explicit-module-boundary-types": "off",
 
@@ -44,8 +44,10 @@ module.exports = {
     // Always use strict comparisons.
     eqeqeq: "error",
 
+    "react/prop-types" : 'off',
+
     // Use fat arrow function style.
-    "func-style": "error",
+    "func-style": "off",
 
     // Forbid reassigning parameters.
     "no-param-reassign": "error",

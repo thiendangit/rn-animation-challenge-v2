@@ -22,6 +22,7 @@ import { MapViewScreen } from "./demoScreens/MapViewScreen";
 import { SvgScreen } from "./demoScreens/SvgScreen";
 import { VectorIconsScreen } from "./demoScreens/VectorIconsScreen";
 import { HomeScreen } from "./HomeScreen";
+import {DragAndSortScreen} from "./demoScreens/DragAndSortScreen";
 
 const Stack = createStackNavigator();
 
@@ -133,6 +134,11 @@ export const App = () => {
           name="VectorIcons"
           component={VectorIconsScreen}
           options={{ title: "Vector Icons" }}
+        />
+        <Stack.Screen
+          name="DragAndSort"
+          component={DragAndSortScreen}
+          options={{ title: "Drag And Sort Screen" }}
         />
       </Stack.Navigator>
     </NavigationContainer>

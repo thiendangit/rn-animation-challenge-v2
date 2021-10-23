@@ -20,6 +20,7 @@ type HomeStackParametersList = {
   MapView: undefined;
   Svg: undefined;
   VectorIcons: undefined;
+  DragAndSort: undefined;
 };
 
 interface Props {
@@ -70,6 +71,10 @@ export class HomeScreen extends Component<Props> {
         <Button
           onPress={() => navigate("VectorIcons")}
           title={"Vector Icons"}
+        />
+        <Button
+          onPress={() => navigate("DragAndSort")}
+          title={"Drag And Sort Animation"}
         />
       </ScrollView>
     );

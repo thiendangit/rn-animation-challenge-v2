@@ -2291,7 +2291,7 @@
     "@typescript-eslint/types" "4.31.1"
     eslint-visitor-keys "^2.0.0"
 
-"@unimodules/core@~7.1.1":
+"@unimodules/core@~7.1.1", "@unimodules/core@~7.1.2":
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/@unimodules/core/-/core-7.1.2.tgz#5181b99586476a5d87afd0958f26a04714c47fa1"
   integrity sha512-lY+e2TAFuebD3vshHMIRqru3X4+k7Xkba4Wa7QsDBd+ex4c4N2dHAO61E2SrGD9+TRBD8w/o7mzK6ljbqRnbyg==
@@ -2302,6 +2302,14 @@
   version "6.3.7"
   resolved "https://registry.yarnpkg.com/@unimodules/react-native-adapter/-/react-native-adapter-6.3.7.tgz#94e3d9d43d88de12cb850f1277b6c6e7d3f21605"
   integrity sha512-kVfTje46vfc5uqILvFJCoiS49WfuWcGZUKvRBJaXd1bPgG7E8+94+9p1AsNs5eAFkFnbVWXRAvlOeiHIqrNjEA==
+  dependencies:
+    expo-modules-autolinking "^0.0.3"
+    invariant "^2.2.4"
+
+"@unimodules/react-native-adapter@~6.3.7":
+  version "6.3.9"
+  resolved "https://registry.yarnpkg.com/@unimodules/react-native-adapter/-/react-native-adapter-6.3.9.tgz#2f4bef6b7532dce5bf9f236e69f96403d0243c30"
+  integrity sha512-i9/9Si4AQ8awls+YGAKkByFbeAsOPgUNeLoYeh2SQ3ddjxJ5ZJDtq/I74clDnpDcn8zS9pYlcDJ9fgVJa39Glw==
   dependencies:
     expo-modules-autolinking "^0.0.3"
     invariant "^2.2.4"
@@ -2484,6 +2492,11 @@ abort-controller@^3.0.0:
   integrity sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==
   dependencies:
     event-target-shim "^5.0.0"
+
+abs-svg-path@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/abs-svg-path/-/abs-svg-path-0.1.1.tgz#df601c8e8d2ba10d4a76d625e236a9a39c2723bf"
+  integrity sha1-32Acjo0roQ1KdtYl4japo5wnI78=
 
 absolute-path@^0.0.0:
   version "0.0.0"
@@ -5586,6 +5599,16 @@ expo-font@~9.2.1:
   dependencies:
     expo-modules-core "~0.2.0"
     fontfaceobserver "^2.1.0"
+
+expo-haptics@~10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/expo-haptics/-/expo-haptics-10.1.0.tgz#2ef5f0c3442f57844f7a7a961d922872e4ea9a71"
+  integrity sha512-2rpixkP3LSCwaJAmbbs0CSqbY7lSk7Ytay4UAYWg3YiJ05My7+MGMPbQJARyAMI5JQNuzcdsZN74btSusBvgYQ==
+
+expo-image-loader@~2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/expo-image-loader/-/expo-image-loader-2.2.0.tgz#b5d49ec65e576c033823050b223ef462c5ec5711"
+  integrity sha512-kTs/lW8LUXYFQ5t8wkdJs0A41zd7dIB8uRRC0a9L0EurSGUvQWiVTbHQoLo/GYWL7nM85OaPAe2qkHfcz5KeyA==
 
 expo-keep-awake@~9.2.0:
   version "9.2.0"
@@ -9184,6 +9207,13 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
+normalize-svg-path@^1.0.1:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/normalize-svg-path/-/normalize-svg-path-1.1.0.tgz#0e614eca23c39f0cffe821d6be6cd17e569a766c"
+  integrity sha512-r9KHKG2UUeB5LoTouwDzBy2VxXlHsiM6fyLQvnJa0S5hrhzqElH/CH7TUGhT1fVvIYBIKf3OpY4YJ4CK+iaqHg==
+  dependencies:
+    svg-arc-to-cubic-bezier "^3.0.0"
+
 normalize-url@^3.0.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
@@ -9812,6 +9842,11 @@ parse-srcset@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/parse-srcset/-/parse-srcset-1.0.2.tgz#f2bd221f6cc970a938d88556abc589caaaa2bde1"
   integrity sha1-8r0iH2zJcKk42IVWq8WJyqqiveE=
+
+parse-svg-path@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/parse-svg-path/-/parse-svg-path-0.1.2.tgz#7a7ec0d1eb06fa5325c7d3e009b859a09b5d49eb"
+  integrity sha1-en7A0esG+lMlx9PgCbhZoJtdSes=
 
 parseurl@~1.3.2, parseurl@~1.3.3:
   version "1.3.3"
@@ -10781,6 +10816,15 @@ react-native-reanimated@~2.2.2:
     mockdate "^3.0.2"
     string-hash-64 "^1.0.3"
 
+react-native-redash@^16.2.2:
+  version "16.2.2"
+  resolved "https://registry.yarnpkg.com/react-native-redash/-/react-native-redash-16.2.2.tgz#99ecb49810aab8ed778b6d8c8726a29117065d96"
+  integrity sha512-febggvSI93H796DS1ufNNf/8FQMw21UTiMYBRscmhzyIamcC194oNamW1UtbreRSC1OweKBDEbyxPSugiuncmQ==
+  dependencies:
+    abs-svg-path "^0.1.1"
+    normalize-svg-path "^1.0.1"
+    parse-svg-path "^0.1.2"
+
 react-native-safe-area-context@3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-3.2.0.tgz#06113c6b208f982d68ab5c3cebd199ca93db6941"
@@ -10800,6 +10844,23 @@ react-native-svg@12.1.1:
   dependencies:
     css-select "^2.1.0"
     css-tree "^1.0.0-alpha.39"
+
+react-native-unimodules@^0.14.8:
+  version "0.14.8"
+  resolved "https://registry.yarnpkg.com/react-native-unimodules/-/react-native-unimodules-0.14.8.tgz#8bf859ac1a4e06122e0331ddf9dec62019884432"
+  integrity sha512-yL6yaG6rq0dYb9/rN3KyZtOPxc0mt69GsWavAZBnhwN1v4uMi50DiHFdfACTPmPnz420woITmBpKK0juWRZOew==
+  dependencies:
+    "@unimodules/core" "~7.1.2"
+    "@unimodules/react-native-adapter" "~6.3.7"
+    chalk "^2.4.2"
+    expo-asset "~8.3.3"
+    expo-constants "~11.0.2"
+    expo-file-system "~11.1.3"
+    expo-image-loader "~2.2.0"
+    expo-modules-core "~0.2.0"
+    find-up "~5.0.0"
+    unimodules-app-loader "~2.2.0"
+    unimodules-task-manager-interface "~6.2.0"
 
 "react-native@https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz":
   version "0.63.2"
@@ -12203,6 +12264,11 @@ supports-hyperlinks@^2.0.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
+svg-arc-to-cubic-bezier@^3.0.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/svg-arc-to-cubic-bezier/-/svg-arc-to-cubic-bezier-3.2.0.tgz#390c450035ae1c4a0104d90650304c3bc814abe6"
+  integrity sha512-djbJ/vZKZO+gPoSDThGNpKDO+o+bAeA4XQKovvkNCqnIS2t+S4qnLAGQhyyrulhCFRl1WWzAp0wUDV8PpTVU3g==
+
 svgo@^1.0.0:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/svgo/-/svgo-1.3.2.tgz#b6dc511c063346c9e415b81e43401145b96d4167"
@@ -12683,6 +12749,16 @@ unicode-property-aliases-ecmascript@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-2.0.0.tgz#0a36cb9a585c4f6abd51ad1deddb285c165297c8"
   integrity sha512-5Zfuy9q/DFr4tfO7ZPeVXb1aPoeQSdeFMLpYuFebehDAhbuevLs5yxSZmIFN1tP5F9Wl4IpJrYojg85/zgyZHQ==
+
+unimodules-app-loader@~2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/unimodules-app-loader/-/unimodules-app-loader-2.2.0.tgz#8f8543630ada0f9092ce95050d05738990d1f4ab"
+  integrity sha512-porQWVWu7meIrCJ+c+H7eJyeC2rHioLUZiv4UcOs33SAyUhR4X05tCC8NIOuQJsF08Fj3a0ck7HUsd5xq+LqKA==
+
+unimodules-task-manager-interface@~6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/unimodules-task-manager-interface/-/unimodules-task-manager-interface-6.2.0.tgz#e9e19ca5b28b2dfafa5768baf9da6c71bf6940d8"
+  integrity sha512-DrRVWF46TI93GbaDWAJ+bKd3vHjZq9pS8oJ6pZQN96qUTWkJ3yqa92yF118JxdGll+YtymxF/ZWCugBFMtISbA==
 
 union-value@^1.0.0:
   version "1.0.1"
