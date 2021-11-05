@@ -215,6 +215,7 @@ export const DragAndSortScreen = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaProvider >
+
         <SafeAreaView style={{flex: 1}} >
           <Animated.ScrollView
             ref={scrollViewRef}
